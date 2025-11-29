@@ -389,7 +389,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ bgImag
         
         <div className="flex items-center gap-2">
             <div className="flex gap-1">
-                {['#000000', '#EF4444', '#3B82F6', '#10B981', '#F59E0B'].map(color => (
+                {['#000000', '#5D4037', '#EF4444', '#F97316', '#F59E0B', '#10B981', '#3B82F6', '#8B5CF6'].map(color => (
                     <button
                         key={color}
                         onClick={() => setTool({ ...tool, type: 'pen', color })}
